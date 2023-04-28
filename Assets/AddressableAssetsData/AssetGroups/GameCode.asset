@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GameCode
+  m_EditorClassIdentifier: 
+  m_GroupName: GameCode
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b5a2ad409bc1cc64b9143e46f59ea2a1
+  m_SerializeEntries:
+  - m_GUID: dbca74e6f09e39d43bcb1b96e27fd793
+    m_Address: Assembly-CSharp.dll
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 98e5b445423239741804ab4ba694f279
+    m_Address: mscorlib.dll
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d1a0c43b13bf1de41828dd8b548be0f9
+    m_Address: System.Core.dll
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ec4dd841f5735bd44be02a793cd0de14
+    m_Address: System.dll
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7bf9f00babb884be297463cb1a3e208f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8c06395911870324faee900cc69b5f8a, type: 2}
+    - {fileID: 11400000, guid: 72837769c0202894c84803732d112cc0, type: 2}

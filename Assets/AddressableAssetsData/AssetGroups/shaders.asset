@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: shaders
+  m_EditorClassIdentifier: 
+  m_GroupName: shaders
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d8a96cb8bfe0efd4cb18114b3032ab77
+  m_SerializeEntries:
+  - m_GUID: 91f3808f7f3544a4e8e274fabc21c6b8
+    m_Address: Assets/Arts/Effect/Res/Shader/Additive Dissolve UV 1.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9c35d7d9c7bcebb4bae40ea3117392be
+    m_Address: Assets/Arts/Effect/Res/Shader/Additive Dissolve UV.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 18a8d3adfb095cf4da6b5ce915dfbd81
+    m_Address: Assets/Arts/Effect/Res/Shader/Additive Dissolve.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5280686e5064a1a4082b4ee3d91cc059
+    m_Address: Assets/Arts/Effect/Res/Shader/Additive Fresnel Dissolve.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 228fc0d984c2a7b48875df4babaf4354
+    m_Address: Assets/Arts/Effect/Res/Shader/Additive Fresnel UV.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2872f3baafa5a9f46aa61a4a63286ded
+    m_Address: Assets/Arts/Effect/Res/Shader/Additive Fresnel.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f74eba26d7559254fbb9eb26b347eb6f
+    m_Address: Assets/Arts/Effect/Res/Shader/Additive Mask Dissolve.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d15a244fcd9c6da4a9e9bd110f96753e
+    m_Address: Assets/Arts/Effect/Res/Shader/Additive Mask Noise Dissolve UV.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d5302db5413c8a047ae6c9dd3c0e3a36
+    m_Address: Assets/Arts/Effect/Res/Shader/Additive Mask Noise UV.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c299d5e4db98cd945ad8eeb5d12d12c8
+    m_Address: Assets/Arts/Effect/Res/Shader/Additive Mask UV Dissolve.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 295ba8c63e717474183ff71c96005805
+    m_Address: Assets/Arts/Effect/Res/Shader/Additive Mask UV One Back.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e1bf4c3d3ee91bb4a9a68314d0a033b0
+    m_Address: Assets/Arts/Effect/Res/Shader/Additive Mask UV One Dissolve.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2693afc16c54b744e8be98daabbe2003
+    m_Address: Assets/Arts/Effect/Res/Shader/Additive Mask UV One.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 82e1ffd69d97ab4429838d16e80ed0c4
+    m_Address: Assets/Arts/Effect/Res/Shader/Additive Mask UV.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1364b4a8e624e0246a7a74d1a0eacd78
+    m_Address: Assets/Arts/Effect/Res/Shader/Additive Mask.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 508451bc9c594e841b386a3ddbb183eb
+    m_Address: Assets/Arts/Effect/Res/Shader/Additive UV.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 29c2b06eebc69a64b87c54c31ca0fdfe
+    m_Address: Assets/Arts/Effect/Res/Shader/Additive.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c4fb51bf365214347a2720eb615bd12c
+    m_Address: Assets/Arts/Effect/Res/Shader/Alpha Blend Dissolve step.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5dea4a83b2c3be7408db19b4f953a008
+    m_Address: Assets/Arts/Effect/Res/Shader/Alpha Blend Dissolve.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f99bd930a7ab334ba4b146eeb375672
+    m_Address: Assets/Arts/Effect/Res/Shader/Alpha Blend Mask Dissolve Hader Edges.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 65da37f76cb52d64eb2bbeebf184068e
+    m_Address: Assets/Arts/Effect/Res/Shader/Alpha Blend Mask Dissolve.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f8b1fda63f05c445be0eb6cbbc97a1d
+    m_Address: Assets/Arts/Effect/Res/Shader/Alpha Blend Mask Noise UV 1.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a436a0f1890b6b1488cc9c6121886bdc
+    m_Address: Assets/Arts/Effect/Res/Shader/Alpha Blend Mask Noise UV.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2ae55dca3ba40694387a71f7e8fb243b
+    m_Address: Assets/Arts/Effect/Res/Shader/Alpha Blend Mask UV Dissolve.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4db0610b1fee89c45a5e03cc4af7b73d
+    m_Address: Assets/Arts/Effect/Res/Shader/Alpha Blend Mask UV One Dissolve 1.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a81407e6014e8d047b66b80f7b5ad382
+    m_Address: Assets/Arts/Effect/Res/Shader/Alpha Blend Mask UV One Dissolve.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2386ce85fb38b10458444d987904668d
+    m_Address: Assets/Arts/Effect/Res/Shader/Alpha Blend Mask UV One.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 293b79216713e4144bfce45d9940b7f3
+    m_Address: Assets/Arts/Effect/Res/Shader/Alpha Blend Mask UV.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: afd2f952d44fd034ba73d1a27b8bd76a
+    m_Address: Assets/Arts/Effect/Res/Shader/Alpha Blend Mask.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c9ee385159056ef4c9d6adea5bc2564a
+    m_Address: Assets/Arts/Effect/Res/Shader/Alpha Blend Rotationg.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e8828a733a6ff9343a48c8956e21ce2b
+    m_Address: Assets/Arts/Effect/Res/Shader/Alpha Blend UV.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 17259d893c6e5b34392257055a10ed87
+    m_Address: Assets/Arts/Effect/Res/Shader/Alpha Blend.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0325466c5644f03418cbb467ccdd8fc0
+    m_Address: Assets/Arts/Effect/Res/Shader/Water.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7bf9f00babb884be297463cb1a3e208f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8cc83418a78e46f48a3d546a60c0357a, type: 2}
+    - {fileID: 11400000, guid: b2cee8c015797b6409e70bfc86954983, type: 2}

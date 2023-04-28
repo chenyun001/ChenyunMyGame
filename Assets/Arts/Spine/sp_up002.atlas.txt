@@ -1,0 +1,5 @@
+sp_up002.png
+size:256,128
+filter:Linear,Linear
+cao_001
+bounds:2,2,179,84

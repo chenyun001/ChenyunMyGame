@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Spine
+  m_EditorClassIdentifier: 
+  m_GroupName: Spine
+  m_Data:
+    m_SerializedData: []
+  m_GUID: bee93eae37ff9a0479eeb6f87a8db345
+  m_SerializeEntries:
+  - m_GUID: ef553f16576e1d349b27ec2f53052816
+    m_Address: sp_float001.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 608e3f8d103a22447ba352f9245c77b0
+    m_Address: sp_float001.json
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7d5d6ac6a0576b54981628f5837fa1ac
+    m_Address: sp_float001.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a21ba6b53b544a74aacf41bbbfe2e373
+    m_Address: sp_float001_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ffe640676b5b50c43b4b919186fe27df
+    m_Address: sp_float001_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 53cbeb3e3483703459ab4b46e217b06f
+    m_Address: sp_float001_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 773fa136bf0c8ca49b15dff8d7c266e2
+    m_Address: sp_floor001.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f508bb7f5d4dc2948875b8328605a32b
+    m_Address: sp_floor001.json
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 34a15bdb5e13e784bac82d270a1185d3
+    m_Address: sp_floor001.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1a37125e2fb084841b787d2faab8b277
+    m_Address: sp_floor001_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0a301da3d147e6a4d806df2c30f4f3ea
+    m_Address: sp_floor001_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 794acd7b42189c24e886b9e73edaf7c3
+    m_Address: sp_floor001_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 82a2d90e2db89bd448d9df547f5b2a56
+    m_Address: sp_icon001.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1012568864a7f0c42ab1db6eabfc32a5
+    m_Address: sp_icon001.json
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 28e0c200237bd4f4b930e4820f245d5f
+    m_Address: sp_icon001.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b67a4f066cc00964e95e7e065d94acab
+    m_Address: sp_icon001_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d8638021869c5ee47a9d5573adda0466
+    m_Address: sp_icon001_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8d590d27aa9693647a4d0b80097d8734
+    m_Address: sp_icon001_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4d974f76cf7b8ca4182db9f9eade69e1
+    m_Address: sp_skin001.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 665611696f7d82e46bdfa8e9594804ce
+    m_Address: sp_skin001.json
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a259a860590ec004e84bd5999fdbf09e
+    m_Address: sp_skin001.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eeadd4f4a53b8dc40a774b1b3a16bfae
+    m_Address: sp_skin001_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d70917d56c64f714ba18d16e781fda70
+    m_Address: sp_skin001_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f1a88de06517f140872600ed43579cf
+    m_Address: sp_skin001_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 36a7079ede77685428f5bfba116e0e91
+    m_Address: sp_up001.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e02315ff20820844fa826910332ebd60
+    m_Address: sp_up001.json
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d52355c864f29ee42b97735f989a3132
+    m_Address: sp_up001.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5bcbf60aabeee4943858d4f3f151591c
+    m_Address: sp_up001_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bc7523b7f548a0742b56b353ec1da5d1
+    m_Address: sp_up001_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 31e8fb8c0412f0b428691b9d4723452f
+    m_Address: sp_up001_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 04ca51b93937f1541b01db5c9349449f
+    m_Address: sp_up002.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ac6ad9f1111a33347a902fc715e6def8
+    m_Address: sp_up002.json
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6543feefe6b054e4c97e53759cbb1fe4
+    m_Address: sp_up002.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f66b29e354d4c2f4c9269756cc5a828a
+    m_Address: sp_up002_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7980132f386d0aa4d946c359edf2f71a
+    m_Address: sp_up002_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: acd887300019a5745a8904331881468a
+    m_Address: sp_up002_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fe28ae70c0b2a3548a610877e0aab2ab
+    m_Address: sp_up003.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d6de40b803b495c4187cca8934b1e6f5
+    m_Address: sp_up003.json
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4dd8d7dd4b1594a48b6e4f8ef1ccf2ab
+    m_Address: sp_up003.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1ae8197ab80e00944a947868d719605b
+    m_Address: sp_up003_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e40f58673e6d69341b225414203855d0
+    m_Address: sp_up003_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bc77cf0c91d9e65458db0bf85bf601f1
+    m_Address: sp_up003_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6675d02944784424d8fd9ec22ad17f90
+    m_Address: sp_up004.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 620514c550a7f7245b546cc5d62601bf
+    m_Address: sp_up004.json
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3150f675da0fb084890ef8973f73f2c1
+    m_Address: sp_up004.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 66fe2aad4790c3b498e1e4e9bac52ef2
+    m_Address: sp_up004_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 38c1238222d276247825ebed08a3880c
+    m_Address: sp_up004_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ce8e12019ec5d9f499192c2394b7ce5d
+    m_Address: sp_up004_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1e844336aa730db47af93f7130576cb7
+    m_Address: sp_up005.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ebc6724e399ce29408108b058afbb895
+    m_Address: sp_up005.json
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2447accf9685c664aa3977ad6f485043
+    m_Address: sp_up005.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 431bac9900d47fa4f8fcffcaa36a4e5b
+    m_Address: sp_up005_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 544edba565bcdc04f8a15847cf1d2cd6
+    m_Address: sp_up005_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9b68a9b949e04bd4a83cd733611997f7
+    m_Address: sp_up005_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7bf9f00babb884be297463cb1a3e208f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f4bf8448da83c3742bd1a2c2e7cf2e7a, type: 2}
+    - {fileID: 11400000, guid: 465b934f0b3de4242ac62ab618b1dcfa, type: 2}

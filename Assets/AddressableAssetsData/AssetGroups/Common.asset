@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Common
+  m_EditorClassIdentifier: 
+  m_GroupName: Common
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d4664e57f6f464140be2374288247d48
+  m_SerializeEntries:
+  - m_GUID: fb468326c11a645a296c4f766b5200c1
+    m_Address: Main Camera.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 63d731e5c6aa1cb448224b7045fcb316
+    m_Address: MassageTips.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f7b06ff93ac901c46a1770fbbde15131
+    m_Address: NetLoading.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6051721b9ad00cd4c84e2b6567076209
+    m_Address: InGameCamera.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7247f05a339d2b648a38085f9263798f
+    m_Address: LoadDll.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0f12dbff78123814cbb0a397c859c6a1
+    m_Address: LoadingScreen.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 23c0f11281051cd4883c22fa4369d0c4
+    m_Address: Post-process Volume.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7bf9f00babb884be297463cb1a3e208f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fee24bfe961115448a6f7b390f57d13e, type: 2}
+    - {fileID: 11400000, guid: 1ea18e3de714e284c94b999861627eb7, type: 2}

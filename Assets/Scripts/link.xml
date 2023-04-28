@@ -1,0 +1,5 @@
+﻿<linker>
+    <assembly fullname="protobuf_net">
+        <type fullname="*" preserve="all"/>
+    </assembly>
+</linker>

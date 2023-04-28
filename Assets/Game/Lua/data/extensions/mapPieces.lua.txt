@@ -1,0 +1,15 @@
+local mapPieces = require("data/mapPieces")
+function mapPieces:init()
+    self.list  = {}
+    self.list["mapp1"] =  self.mapp1
+    self.list["mapp2"] =  self.mapp2
+    self.list["mapp3"] =  self.mapp3
+    self.list["mapp4"] =  self.mapp4
+    self.list["mapp5"] =  self.mapp5
+end
+
+function mapPieces:get_map_pieces_by_name(name)
+    return self.list[name]
+end
+
+return mapPieces

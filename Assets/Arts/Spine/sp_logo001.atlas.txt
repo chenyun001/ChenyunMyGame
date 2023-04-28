@@ -1,0 +1,7 @@
+sp_logo001.png
+size:1024,1024
+filter:Linear,Linear
+logo
+bounds:2,203,1000,484
+xing1
+bounds:2,2,207,199

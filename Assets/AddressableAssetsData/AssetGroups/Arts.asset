@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Arts
+  m_EditorClassIdentifier: 
+  m_GroupName: Arts
+  m_Data:
+    m_SerializedData: []
+  m_GUID: edf342b4495cd944089daab8312b10d4
+  m_SerializeEntries:
+  - m_GUID: 320e2ea499a67024eb944f8186edc188
+    m_Address: TestSence.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 90ad8ace71c6c9a47948fdfe96940e3e
+    m_Address: Assets/Arts/Animactions
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 524fed89dee63224080e4ebd040267dd
+    m_Address: Assets/Arts/Comics_iPhone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 65d356a4f69c39748ad04c32516184b6
+    m_Address: Assets/Arts/dojo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1b3e4c6cf32bd3e4f9a7f608114b8ce7
+    m_Address: Assets/Arts/Effect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cb7c16bb0309a2249907da9fa10bbe55
+    m_Address: Assets/Arts/Effects
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3c5154c5bf6383a489760ae00f7f764a
+    m_Address: Assets/Arts/EnemyModel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fd5c9ffb1ecda7a4c8934d3aa588fb23
+    m_Address: Assets/Arts/Font
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7f1e5d688e59a8f428932b2633a86cb5
+    m_Address: Assets/Arts/Gui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8015b42860a06d442ba3196564f608c9
+    m_Address: Assets/Arts/MainMenu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d5a6d9714afac5747990baf2bc93296a
+    m_Address: Assets/Arts/Materials
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d2fa060b6c2be5d42841ea7a5a5d8174
+    m_Address: Assets/Arts/Misc
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0565ed12969b0a44cbd9205d6e0d467a
+    m_Address: Assets/Arts/MyTest
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 727d1fcb426f21648892b22a247fbd58
+    m_Address: Assets/Arts/objects
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d3e66d4a71417514fa728a2c50db77b4
+    m_Address: Assets/Arts/particles
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dd742b59831524e40a639e162dc1645f
+    m_Address: Assets/Arts/ScenceModel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a1c979b1d6ed54e739e1fae4d1191e48
+    m_Address: Assets/Arts/Shaders
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9cc3fa3d52b7e4102b04e4f01243be17
+    m_Address: Assets/Arts/Sounds
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 03cf29d2d348b6049b77151fbce504be
+    m_Address: Assets/Arts/Spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 953a9308be1797d43b7a6863ba2242d8
+    m_Address: Assets/Arts/SpineSkeletons
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f4ef9ce6c981f1b4082339dd4c53eabe
+    m_Address: Assets/Arts/Tegra2Only
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d6c4559df4091bf46a4e6b53ba343ff4
+    m_Address: Assets/Arts/testScene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3a00328022c884b609358749bbb1a8e8
+    m_Address: Assets/Arts/textures
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e965e2f823b7b4ef6af6e8f70024bad1
+    m_Address: Assets/Arts/Trails
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 021c78ba4be5ab546ba43873b4c586e2
+    m_Address: Assets/Arts/Tutorial
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4c263b8a23bc5b048b80c58b4c95e2c6
+    m_Address: Assets/Arts/Weapons
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7bf9f00babb884be297463cb1a3e208f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 696fb6c8f9c69eb4c92c1e93000d386d, type: 2}
+    - {fileID: 11400000, guid: 15744b75ac2447e439f98cdc1b56839d, type: 2}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Roles
+  m_EditorClassIdentifier: 
+  m_GroupName: Roles
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ce257f63bd7d672468aed2481fb97322
+  m_SerializeEntries:
+  - m_GUID: ed34bfbf68326e1439987286d4495126
+    m_Address: Monster.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d72adb5ce43b9451e82b3e027a2fe477
+    m_Address: Player.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7bf9f00babb884be297463cb1a3e208f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 51ffc8072ac8a1b4aa51bfb18549db5f, type: 2}
+    - {fileID: 11400000, guid: cfb9133c5b22b7f4ea0b2caf3a661334, type: 2}

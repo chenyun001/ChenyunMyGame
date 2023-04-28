@@ -1,0 +1,147 @@
+--[[
+-- 通用方法工具类
+]]
+
+local CommonUtials = {}
+local _UIGray = CS.MailingJoy.Core.Utils.UIGray
+--[[
+-- 时间戳转换成时间格式
+]]
+CommonUtials.GetMazeTimeStr = function(time)
+    local t2 = os.date("%Y-%m-%d %H:%M:%S", time)
+    return t2
+end
+
+--[[
+-- 时间戳转换成时间格式
+]]
+CommonUtials.Dump = function(tablestr,str)
+	if not USE_DUMP  then return end
+	if str then
+		print(table.concat( {str,tostring(tablestr)}))
+	else
+		print(tostring(tablestr))
+	end
+end
+
+--[[
+-- 根据服务端发回来的奖励解析
+]]
+CommonUtials.PairsRewards = function(rewards)
+	local list = {}
+	for k,v in pairs(rewards) do
+		local item = {} 
+		item.typeId = v.typeId
+	    item.amount = v.amount
+	    item.type = v.type
+		if v.type == 1 then -- 英雄
+			item.general_excel = generalData:get_general(v.typeId) 
+	       
+		elseif v.type == 3 then -- 道具
+	        item.item_excel = itemData:get_item(v.typeId) 
+		end
+        table.insert(list,item)
+    end
+    return list
+end
+
+
+--[[
+-- 奖励解析
+]]
+CommonUtials.PairsConfigRewards = function(str,type)
+	local list = {}
+	if str == "0" then
+		return list 
+	end
+	
+	local function _Pairs(str)
+		local strList_ex =  string.split(str,",")
+		if #strList_ex > 1 then
+			local item = {} 
+			item.typeId = tonumber(strList_ex[1])
+    		item.amount = tonumber(strList_ex[2])
+		    item.type = type
+			if item.type == 1 then -- 英雄
+				item.general_excel = generalData:get_general(item.typeId)
+			elseif item.type == 2 then -- 指挥官技能
+				item.commander_excel = commanderSkill:get_commanderSkill(item.typeId)  
+			elseif item.type == 3 then -- 道具
+		        item.item_excel = itemData:get_item(item.typeId) 
+			end
+			table.insert(list,item)
+		end
+	end
+	_Pairs(str)
+	-- local strList =  string.split(str, ";")
+	-- if #strList > 1 then
+	-- 	for i,v in ipairs(strList) do
+	-- 		_Pairs(strList[1])
+	-- 	end
+	-- else
+		
+	-- end
+    return list
+end
+
+--[[
+ 把图片数组传过来 获取图片数组需要在类的 awake中获取
+]]
+CommonUtials.SetUIGray= function(obj,isGray)
+	local list = CommonUtials.LuaGetComponentsInChildren(obj,typeof(UnityEngine.UI.Image))
+	for i,v in pairs(list) do
+		if isGray then
+			_UIGray.SetUIGray(v) 
+		else
+			_UIGray.Recovery(v)
+		end
+	end
+end
+
+--[[
+ --获取子物体的组件数组
+]]
+CommonUtials.LuaGetComponentsInChildren = function(obj,type)
+	local list = {} 
+	local listEx = obj.transform:GetComponentsInChildren(type)
+    for i=0,listEx.Length-1 do
+    	table.insert(list,listEx[i])
+    end
+    return list
+end
+
+CommonUtials.GetNameByType=function(targetType)
+	if targetType == 1 or targetType == 2.1  then
+		return language_data.GetLanguage("陆地")
+	elseif targetType == 2 or targetType == 2.2  then
+		return language_data.GetLanguage("空中")
+	elseif targetType == 4 or targetType == 2.3 then
+		return language_data.GetLanguage("水面")
+	elseif targetType == 33 then
+		return language_data.GetLanguage("所有")
+	end
+end
+
+CommonUtials.GetHurtNameByType=function(targetType)
+	if targetType == 1 then
+		return language_data.GetLanguage("物理")
+	elseif targetType == 2 then
+		return language_data.GetLanguage("魔法")
+	elseif targetType == 3 then
+		return language_data.GetLanguage("真实")	
+	elseif targetType == 0 then
+		return language_data.GetLanguage("攻击")	
+	end
+end
+
+--todo 后面可以优化
+CommonUtials.GoFuncById = function(funcId)
+	if funcId == 1 then
+		 GameUIManager:OpenUI("ChapterNew.prefab")
+	elseif  funcId == 2 then
+    	GameUIManager:OpenUI(typeof(MailingJoy.Game.Modules.Common.CounterpartPanel))
+	end
+end
+
+
+return CommonUtials

@@ -1,0 +1,29 @@
+
+
+
+HTTP_SERVER_URL=  "http://192.168.50.187:19000/minigame"
+
+-- 检查版本更新
+CHECK_VERSION = true
+-- PREFS 变量
+PREFS_KEY = {
+    -- 用户名
+    PREFS_ACCOUNT = "PREFS_ACCOUNT",
+    -- 密码
+    PREFS_PWD = "PREFS_PWD",
+}
+--是否用dump打印日志
+USE_DUMP = true
+
+--BATTLE_SERVER_URL = "192.168.50.63"
+BATTLE_SERVER_URL = "47.97.194.5"
+
+BATTLE_SERVER_PORT = 47624
+BATTLE_SERVER_VERSION = "2022052302"
+
+
+NetWorkEvent = {
+
+    LOGIN = "LOGIN",
+    Resoult = "Resoult",
+ }

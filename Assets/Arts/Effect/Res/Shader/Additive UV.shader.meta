@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 508451bc9c594e841b386a3ddbb183eb
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _ParticleColor: {fileID: 2800000, guid: 21ac14b95e99c1847aad53479cd2aecc, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

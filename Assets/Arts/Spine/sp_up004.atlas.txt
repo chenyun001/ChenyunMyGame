@@ -1,0 +1,7 @@
+sp_up004.png
+size:256,256
+filter:Linear,Linear
+cao_001
+bounds:2,45,179,84
+luwei_001
+bounds:2,2,194,41

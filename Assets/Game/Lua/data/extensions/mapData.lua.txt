@@ -1,0 +1,11 @@
+local mapData = require("data/mapData")
+
+function mapData:get_map_by_id(id)
+    return self.mapData[id]
+end
+
+function mapData:get_lgenth()
+    return #self.mapData
+end
+
+return mapData

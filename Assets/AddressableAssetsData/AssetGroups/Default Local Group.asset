@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1afd47eaf1e6841d48d3cae47db0d642
+  m_SerializeEntries:
+  - m_GUID: 8ad0ed6dae26c8143a80e276e1b599a5
+    m_Address: UIGrayMat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9599804c20b7f46858aee42b4147de52
+    m_Address: bgm.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7bf9f00babb884be297463cb1a3e208f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b494319dc55a04bd283fae0986693218, type: 2}
+    - {fileID: 11400000, guid: 0ada7afe2ddde4d63834acde35338aa1, type: 2}

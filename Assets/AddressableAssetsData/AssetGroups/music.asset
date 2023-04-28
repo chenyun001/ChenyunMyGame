@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: music
+  m_EditorClassIdentifier: 
+  m_GroupName: music
+  m_Data:
+    m_SerializedData: []
+  m_GUID: be47ccb93aba1f140b97ab4949f52989
+  m_SerializeEntries:
+  - m_GUID: b73694f7361794986ac0e2afed999f64
+    m_Address: Assets/Game/Music/ui/S_battle_kaichang.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1873e8aa5125544d4ba84f5a4b78a0e3
+    m_Address: Assets/Game/Music/ui/S_battle_nengliang.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4956f104098c640f688ebc81637ef507
+    m_Address: Assets/Game/Music/ui/S_battle_sou.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5a8ae4066db3642c3846f7ad47781307
+    m_Address: Assets/Game/Music/ui/S_battle_sou2.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7dcfe5eb8543c4e9c991268fa6549395
+    m_Address: Assets/Game/Music/ui/S_battle_tips.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5d288e9b11c644f88be6f65e6d1ebae6
+    m_Address: Assets/Game/Music/ui/S_Btn_ButtonCommon.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eb58e637d813a4f34a525afd32741ab4
+    m_Address: Assets/Game/Music/ui/S_Btn_ButtonCurrency.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 81ba46487985d4a7fb12d18a7a36f36c
+    m_Address: Assets/Game/Music/ui/S_Btn_Card.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 37812e5d21b2944949617774eccae0d9
+    m_Address: Assets/Game/Music/ui/S_Btn_Click.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0b27f4fd2820c4ae6a35313b9443143f
+    m_Address: Assets/Game/Music/ui/S_Btn_Function.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d2fa525ea7dd24f0e9761e0e40c4b02e
+    m_Address: Assets/Game/Music/ui/S_Btn_FunctionOther.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 44641d3de5f934ecb99ecb51175744af
+    m_Address: Assets/Game/Music/ui/S_btn_start.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 85556ea555f8645ea94f83b3946948df
+    m_Address: Assets/Game/Music/ui/S_fuse_1.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2142cf0a521a94a079046a5b1457b152
+    m_Address: Assets/Game/Music/ui/S_Huode.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1f8d92826632b4a1481a71460091ad89
+    m_Address: Assets/Game/Music/ui/S_Huode_2.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7db9bc961c27340f581bc08afc97679e
+    m_Address: Assets/Game/Music/ui/S_Huode_3.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 85d412997287d437abe4f0eed843de8e
+    m_Address: Assets/Game/Music/ui/S_jiuguan_1.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1675d5628845742ea95344c33b07d27c
+    m_Address: Assets/Game/Music/ui/S_LevelUpEffect.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 723b9915f64fc46a19f71bfcb381cb11
+    m_Address: Assets/Game/Music/ui/S_lose_1.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c3c8a2e79433d4d7ebfe612a3474232a
+    m_Address: Assets/Game/Music/ui/S_win_1.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7bf9f00babb884be297463cb1a3e208f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 899fe2f8a03f94a2387d1ce71c7386bf, type: 2}
+    - {fileID: 11400000, guid: 25b5e8f604e0d41fd8083fabb05090bf, type: 2}

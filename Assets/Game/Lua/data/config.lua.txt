@@ -1,0 +1,7 @@
+
+
+
+require ("data/languageData")
+require ("data/mapData")
+require ("data/mapPieces")
+require ("data/randomNameData")

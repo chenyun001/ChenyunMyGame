@@ -1,0 +1,118 @@
+--验证身份证信息
+--只支持18位身份证的验证
+
+--[[
+#身份证18位编码规则：dddddd yyyymmdd xxx y
+#dddddd：地区码
+#yyyymmdd: 出生年月日
+#xxx:顺序类编码，无法确定，奇数为男，偶数为女
+#y: 校验码，该位数值可通过前17位计算获得
+#<p />
+#18位号码加权因子为(从右到左) Wi = [ 7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2,1 ]
+#验证位 Y = [ 1, 0, 10, 9, 8, 7, 6, 5, 4, 3, 2 ]
+#校验位计算公式：Y_P = mod( ∑(Ai×Wi),11 )
+#i为身份证号码从右往左数的 2...18 位; Y_P为脚丫校验码所在校验码数组位置
+参考代码:
+      https://github.com/yujinqiu/idlint
+]]
+local string_len = string.len
+local tonumber = tonumber
+local id_card_check = {}
+-- // wi =2(n-1)(mod 11)
+local wi ={ 7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2 ,1}
+-- // verify digit
+local vi={ "1", "0", "X", "9", "8", "7", "6", "5", "4", "3", "2" }
+
+function id_card_check:isBirthDate(date)
+    local year = tonumber(date:sub(1,4))
+    local month = tonumber(date:sub(5,6))
+    local day = tonumber(date:sub(7,8))
+    if year < 1900  or year > 2021 or month > 12or month < 0 then
+        return false
+    end
+    -- //月份天数表
+    local month_days = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}  ;
+    local bLeapYear = (year % 4 ==  0 and year %100  ~=0 ) or (year % 400 ==0 )
+    if bLeapYear  then
+        month_days[2] = 29;
+    end
+
+    if day > month_days[month] or day < 1 then
+        return false
+    end
+
+    return true
+end
+
+function id_card_check:CheckYearOld(date,time)
+    local year = tonumber(date:sub(1,4))
+    local month = tonumber(date:sub(5,6))
+    local day = tonumber(date:sub(7,8))
+    local time_table = os.date("*t",Convert.ToInt32(time/1000))
+    year = time_table.year -year
+    if (month>time_table.month) then
+        year = year-1
+    elseif month==time_table.month and day>time_table.day then
+        year = year-1
+    end
+    return year
+end
+
+function id_card_check: isAllNumberOrWithXInEnd( str )
+local ret = str:match("%d+X?")
+return ret == str
+end
+
+function id_card_check: checkSum(idcard)
+local nums = {}
+local _idcard = idcard:sub(1,17)
+for ch in _idcard:gmatch"." do
+table.insert(nums,tonumber(ch))
+end
+local sum =0
+
+    for i = 1, (string.len(idcard)-1) do
+        local num = string.sub(idcard, i, i)
+        sum = sum + wi[i] * num
+    end
+return vi [sum % 11+1] == idcard:sub(18,18 )
+end
+
+local err_success =1
+local err_length =2
+local err_province =3
+local err_birth_date =4
+local err_code_sum =5
+local err_unknow_charactor =6
+
+function id_card_check:verifyIDCard(idcard)
+if string_len(idcard) ~= 18 then
+return err_length
+end
+
+if not self:isAllNumberOrWithXInEnd(idcard) then
+return err_unknow_charactor
+end
+-- //第1-2位为省级行政区划代码，[11, 65] (第一位华北区1，东北区2，华东区3，中南区4，西南区5，西北区6)
+local nProvince = tonumber(idcard:sub(1,2 ))
+if( nProvince <11  or nProvince >65 ) then
+return err_province
+end
+
+-- //第3-4为为地级行政区划代码，第5-6位为县级行政区划代码因为经常有调整，这块就不做校验
+
+-- //第7-10位为出生年份；//第11-12位为出生月份 //第13-14为出生日期
+if not self:isBirthDate(idcard:sub(7,14)) then
+return err_birth_date
+end
+
+if not self:checkSum(idcard) then
+return err_code_sum
+end
+
+return err_success
+end
+
+
+
+return id_card_check

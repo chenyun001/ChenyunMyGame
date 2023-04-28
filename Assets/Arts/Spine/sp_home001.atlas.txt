@@ -1,0 +1,10 @@
+sp_home001.png
+size:1024,256
+filter:Linear,Linear
+bo_001
+bounds:2,2,206,206
+wa1
+bounds:390,33,175,153
+rotate:90
+ye_003
+bounds:210,12,178,196

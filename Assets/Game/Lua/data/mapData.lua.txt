@@ -1,0 +1,26 @@
+local config = {
+     ["mapData"]={
+          [1]={
+                ["mapID"]=1,
+                ["pieces"]={
+                                  [1]="mapp1",
+                                },
+                 },
+          [2]={
+                ["mapID"]=2,
+                ["pieces"]={
+                                  [1]="mapp2",
+                                },
+                 },
+          [3]={
+                ["mapID"]=3,
+                ["pieces"]={
+                                  [1]="mapp1",
+                                  [2]="mapp2",
+                                },
+                 },
+     },
+}
+return {
+mapData= config["mapData"],
+}

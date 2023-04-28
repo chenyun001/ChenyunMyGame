@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Scenes
+  m_EditorClassIdentifier: 
+  m_GroupName: Scenes
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 010db6dbee5a8024398d17e45e218392
+  m_SerializeEntries:
+  - m_GUID: 477cc4148fad3449482a3bc3178594e2
+    m_Address: SampleSceneLightingSettings.lighting
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8e256ab4c369eb74aab0e4cbf8ebfc5c
+    m_Address: Game
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ca9f82c8b82eeb140bc12f8cdd3ab8c3
+    m_Address: Standard.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 84f59aebcf2ab6f44ab9e512d429095a
+    m_Address: StartGame.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2569a719e74f04ae0a2713c74379885f
+    m_Address: StartScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 36d0cfe6c63138b47b546e79f58cdb5b
+    m_Address: StartSceneOLd.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7bf9f00babb884be297463cb1a3e208f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4cf501037b73a4dccac82a091ae625a8, type: 2}
+    - {fileID: 11400000, guid: 0a4e529cff32d497384fd3eed29a984d, type: 2}

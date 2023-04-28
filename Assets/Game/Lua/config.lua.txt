@@ -1,0 +1,28 @@
+require("data/config")
+
+
+
+
+mapData = require("data/extensions/mapData")
+mapPieces = require("data/extensions/mapPieces")
+mapPieces:init()
+languageData = require("data/extensions/languageData")
+randomNameData = require("data/extensions/randomNameData")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

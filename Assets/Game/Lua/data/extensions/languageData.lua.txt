@@ -1,0 +1,19 @@
+local languageData = require("data/languageData")
+
+function languageData:get_language(key,...)
+    
+    local language = self.languageData[key]
+    if language == nil then
+        return key
+    end
+    if language.context == nil then
+        language.context = key
+    end
+    language = language.context
+    
+    
+    
+    return language
+end
+
+return languageData

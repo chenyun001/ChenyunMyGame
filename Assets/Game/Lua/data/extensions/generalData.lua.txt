@@ -1,0 +1,6 @@
+local generalData = require("data/generalData")
+function generalData:init()
+    
+end
+
+return generalData
