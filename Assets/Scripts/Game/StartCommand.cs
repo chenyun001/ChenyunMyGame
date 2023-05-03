@@ -28,6 +28,8 @@ using UnityEngine.ResourceManagement.ResourceProviders;
 using UnityEngine.SceneManagement;
 using SceneManager = MailingJoy.Core.SceneManager;
 using MailingJoy.Game.Start;
+
+
 namespace MailingJoy.Game
 {
 	public class StartCommand : SimpleCommand

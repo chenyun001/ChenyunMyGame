@@ -293,7 +293,7 @@ public class Agent : MonoBehaviour, IEDable
     public float GetSpeed(float demage)
     {
         float speed = 0.0f;
-        speed = (demage / BlackBoard.MaxHealth)*10.0f;
+        speed = (demage / BlackBoard.MaxHealth)*2.0f;
         return speed;
     }
 

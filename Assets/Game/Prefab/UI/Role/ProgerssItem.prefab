@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.86534995, g: 0.9056604, b: 0.08116765, a: 1}
+  m_Color: {r: 1, g: 0.23113209, b: 0.35688734, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Progress_contin: {fileID: 8146897053085343467}
   Progress_continEx: {fileID: 7881759062853539197}
-  hurtSpeed: 0.005
+  hurtSpeed: 0.001
 --- !u!1 &7155574312732689116
 GameObject:
   m_ObjectHideFlags: 0

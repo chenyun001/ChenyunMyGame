@@ -53,7 +53,7 @@ function MainPanel:awake()
     end)
 
     self.btn_skill_R.onClick:AddListener(function()
-        self.Player:PlayerSkill_R()
+        self.Player:PlayerSkill_I()
     end)
 
     self.btn_skill_X.onClick:AddListener(function()

@@ -839,7 +839,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 358972200182564196}
-  - component: {fileID: 1436824265340896278}
+  - component: {fileID: 5272268786848961140}
   m_Layer: 5
   m_Name: mainScreen
   m_TagString: Untagged
@@ -871,7 +871,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1436824265340896278
+--- !u!114 &5272268786848961140
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -880,32 +880,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 358972200182564195}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70b92d7d32778ca4093b8f6ccc97babb, type: 3}
+  m_Script: {fileID: 11500000, guid: 3979103bec098864ea082135ed5bb62f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LuaFilePath: module/main_screen_panel
-  Injections:
-  - Name: playerBlood
-    Value: {fileID: 8871837346369372146}
-  - Name: Text_Count
-    Value: {fileID: 9105489295738221727}
-  - Name: EasyTouch
-    Value: {fileID: 358972198967227012}
-  - Name: playerBlood
-    Value: {fileID: 8871837346369372146}
-  BtnInjections:
-  - Name: btn_skill_O
-    Value: {fileID: 358972199793809990}
-  - Name: btn_skill_R
-    Value: {fileID: 358972199343617841}
-  - Name: btn_skill_X
-    Value: {fileID: 358972199751564575}
+  LuaFilePath: 
+  Injections: []
+  BtnInjections: []
   TMPInjections: []
   BaseText: []
   CtrlCanvas: {fileID: 0}
   ScreenPriority: 20
   UseMask: 0
   MaskClickEnable: 0
+  btn_skill_X: {fileID: 358972199751564575}
+  btn_skill_O: {fileID: 358972199793809990}
+  btn_skill_R: {fileID: 358972199343617841}
 --- !u!1 &3670845082807221044
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,12 +18,9 @@ namespace MailingJoy.Game
 		public override void Execute(INotification notification)
 		{
 			base.Execute(notification);
-
 			Facade.RegisterCommand(GameNotify.ASSET_UPDATE, () => new AssetUpdateCommand());
 			Facade.RegisterCommand(ChapterNotify.LoadChapterData, () => new LoadChapterDataCommand());
-
 			Facade.RegisterCommand(NotifyConst.SendToLua,()=>new SendCommandToLua());
-			
 		}
 	}
 

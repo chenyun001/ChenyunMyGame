@@ -84,7 +84,7 @@ public class GameScript : MonoBehaviour
             _Hits = value;
             TimeToClearHits = Time.timeSinceLevelLoad + 3f;
             //UnityEngine.Object obj = value
-            mShowHits(_Hits.ToString());
+            mShowHits?.Invoke(_Hits.ToString());
             // todo:界面更新连击数量
 
         }
@@ -92,9 +92,8 @@ public class GameScript : MonoBehaviour
 
     public void ShowPlayerInfo()
     {
-       
-         this.AShowPlayerInfo(Player.Instance.Agent.BlackBoard.Health);
-        
+
+        this.AShowPlayerInfo?.Invoke(Player.Instance.Agent.BlackBoard.Health);
     }
 
     public void AddDelegate(System.Action<string> action)

@@ -9,7 +9,7 @@ public class CameraAdd : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        var m_uiCamera = GameObject.Find("Camera").GetComponent<Camera>();
+        Camera m_uiCamera = GameObject.Find("Camera").GetComponent<Camera>();
 
         MainCamera.GetUniversalAdditionalCameraData().cameraStack.Add(m_uiCamera);
     }
